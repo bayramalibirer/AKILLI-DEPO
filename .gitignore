@@ -1,0 +1,49 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+*.log
+.vs/
+packages/
+*.nupkg
+appsettings.Local.json
+**/appsettings.*.Local.json
+
+# Build
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Bb]uild/
+[Oo]ut/
+
+# Node / Frontend
+node_modules/
+frontend/smart-warehouse-ui/node_modules/
+frontend/smart-warehouse-ui/dist/
+frontend/smart-warehouse-ui/.env
+frontend/smart-warehouse-ui/.env.local
+*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
