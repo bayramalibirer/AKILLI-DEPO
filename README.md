@@ -10,6 +10,18 @@
 - Ürün ve stok hareketi listeleme (server-side pagination, arama ve filtre)
 - Çok kiracılı (multi-tenant) yapı; tüm veriler `CompanyId` ile ayrılır
 
+## Arayüz
+
+### Ürünler ekranı
+Özet kartları, ürün listesi (sayfalı tablo), arama ve CRUD butonları.
+
+![Ürünler ekranı](screenshots/products.png)
+
+### Stok hareketleri ekranı
+Giriş/çıkış listesi, ürün ve lokasyon filtreleri, "Giriş/Çıkış Yap" butonu.
+
+![Stok hareketleri ekranı](screenshots/stock-movements.png)
+
 ## Teknolojiler
 
 | Katman    | Teknoloji |
